@@ -6,9 +6,15 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-h1 {
+h1, h2 {
     font-size: 48px;
     color: #F9FAF8;
+}
+
+h2 {
+    text-align: center;
+    color: #1F2937;
+    margin-top: 50px;
 }
 
 .section-1 {
@@ -17,6 +23,28 @@ h1 {
     background-color: #1F2937;
     color: whitesmoke;
 }
+
+.section-2 {
+    width: 1330px;
+    height: 480px;
+    
+    color: whitesmoke;
+}
+
+.images {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top:100px;
+}
+
+.imgcont {
+    display: flex;
+    flex-direction: column;
+    color: #1F2937;
+    width: 200px;
+}
+
 
 .header {
     display: flex;
